@@ -30,7 +30,7 @@ if (signupBtn) {
                 localStorage.setItem('token', idToken);
                 
                 alert("Registration successful! Redirecting to main login portal...");
-                window.location.href = "https://localhost/";
+                window.location.href = "https://ams-signup-authentication.vercel.app/";
             }
         } catch (error) {
             console.error("Popup registration error:", error);
