@@ -29,7 +29,7 @@ if (signupBtn) {
                 
                 localStorage.setItem('token', idToken);
                 
-                alert("Registration successful! Redirecting to main login portal...");
+               alert("Account verified! Returning to the app to log in.");
                 window.location.href = "https://ams-signup-authentication.vercel.app/";
             }
         } catch (error) {
