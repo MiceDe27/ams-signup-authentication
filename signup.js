@@ -30,7 +30,7 @@ if (signupBtn) {
                 localStorage.setItem('token', idToken);
                 
                 alert("Registration successful! Redirecting to main login portal...");
-                window.location.href = "http://localhost:5173/";
+                window.location.href = "https://localhost/";
             }
         } catch (error) {
             console.error("Popup registration error:", error);
